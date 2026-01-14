@@ -1,26 +1,34 @@
-# Task 2 – Number Pattern Generator
+# Task 3 – CRUD Console Application
 
 ## Overview
-This project is a Python console application that generates
-a simple number pyramid pattern based on user input.
-It demonstrates the use of loops and basic input handling.
+This project is a Python-based console application that implements
+basic CRUD (Create, Read, Update, Delete) operations for managing tasks.
+It uses object-oriented programming principles and in-memory list storage.
 
 ## Features
-- Accepts user input for number of rows
-- Generates a pyramid-style number pattern
-- Handles invalid input gracefully
+- Create new tasks with unique IDs
+- View all existing tasks
+- Update task title and description
+- Delete tasks by ID
+- Menu-driven user interaction
+- Input validation to prevent runtime errors
+
+## Technical Details
+- Language: Python
+- Storage: In-memory list (no external database)
+- Design: Object-Oriented Programming (OOP)
 
 ## Concepts Used
-- Nested loops
-- Conditional logic
-- User input handling
+- Classes and objects
+- Lists and iteration
+- Loops and conditional statements
 - Exception handling
-- Console output formatting
+- User input validation
 
 ## How to Run
 1. Ensure Python is installed on your system.
 2. Open a terminal in this folder.
-3. Run the program using:
+3. Run the application using:
 
 ```bash
-python task2_number_pattern_generator.py
+python task3_crud_console_app.py
